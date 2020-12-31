@@ -2,6 +2,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#d5d5d5;
+}
+
+#main-header{
+    background-color: black;
+    color: #fff;
+    overflow: auto;
+}
+
+#main-header-title{
+    margin-left: 20px;
+}
+
+#main{
+    width: 80%;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -9,7 +32,7 @@ ul {
 }
 
 fieldset{
-    border-radius: 10px;
+    border: none;
 }
 
 legend{
@@ -20,4 +43,7 @@ legend{
 .repo-link{
     font-size: 18px;
     line-height: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
 }
