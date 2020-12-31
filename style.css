@@ -7,11 +7,11 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color:#d5d5d5;
+    background-color:#fff;
 }
 
 #main-header{
-    background-color: black;
+    background-color: crimson;
     color: #fff;
     overflow: auto;
 }
